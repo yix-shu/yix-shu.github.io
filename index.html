@@ -12,6 +12,30 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+	<style>
+		.dropdown {
+		  position: relative;
+		  display: inline-block;
+		}
+		
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f9f9f9;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+		
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+		
+		.desc {
+		  padding: 15px;
+		  text-align: center;
+		}
+	</style>
 	<body class="is-preload">
 
 		<!-- Header -->
@@ -92,16 +116,22 @@
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
+										<div class = "dropdown"> <!-- NEW CHANGE -->
 										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
 										<header>
 											<h3>Holiday Games (Bay Coding Club)</h3>
-											<h2>I designed and co-developed the entire game in Roblox Studio, while scripting in Lua, 
+											<div class = "dropdown-content"> <!-- NEW CHANGE -->
+											<img src="images/pic02.jpg" alt="" /> <!-- NEW CHANGE -->
+											<div class = "desc">I designed and co-developed the entire game in Roblox Studio, while scripting in Lua, 
 												with a Bay Coding Club coworker. It follows the same structure as the Halloween Game, 
 												where it is round-based and comprised of mini-games. This time, there is a Snowball Fight, 
 												Snowbby, Ice Breakers, and Sword Fight. I designed the maps and the Spectator System, 
 												added music, designed the Snowbby so that we had various obstacles like marshmallows 
-												with automated up-down movement.</h2>
+												with automated up-down movement.
+											</div> <!-- NEW CHANGE -->
+											</div> <!-- NEW CHANGE -->
 										</header>
+										</div> <!-- NEW CHANGE -->
 									</article>
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
