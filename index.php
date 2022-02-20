@@ -1,10 +1,17 @@
 <?php
 
+$file = fopen("messages.txt", "a");
+
 $name = $_POST["name"];
 $email = $_POST["email"];
 $message = $_POST["message"];
 
-echo $name;
-echo $email;
-echo $message;
+fwrite($file, "name: ");
+fwrite($file, $name)
+fwrite($$file, "email: ");
+fwrite($file, $email)
+fwrite($file, "message: ");
+fwrite($file, $message);
+fwrite($file, "\n");
+fclose($file);
 ?>
