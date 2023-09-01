@@ -90,7 +90,7 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #626262;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1955,7 +1955,7 @@ input, select, textarea {
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8fc6d6;
+		background-color: #85cbff;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -2208,7 +2208,7 @@ input, select, textarea {
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #bebebe;
+		background-color: #a2bacc;
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2283,19 +2283,19 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background-color: #d6e0e7;
+				background-color: #dcf0ff;
 			}
 
 			#main > section.three {
-				background-color: #c9dae7;
+				background-color: #c4e6ff;
 			}
 
 			#main > section.four {
-				background-color: #c2daec;
+				background-color: #b2deff;
 			}
 
 			#main > section.five {
-				background-color: #b8d5ec;
+				background-color: #93d1ff;
 			}
 
 /* Wide */
