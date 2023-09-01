@@ -2278,24 +2278,24 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #cce0e7;
+				background-color: #d6e2e7;
 				background-image: url("../../images/overlooking_water_with_text_block.png");
 			}
 
 			#main > section.two {
-				background-color: #bfdae4;
+				background-color: #ccdee6;
 			}
 
 			#main > section.three {
-				background-color: #b9dae6;
+				background-color: #bad8e4;
 			}
 
 			#main > section.four {
-				background-color: #b2d9e7;
+				background-color: #a8d2e3;
 			}
 
 			#main > section.five {
-				background-color: #a7d4e4;
+				background-color: rgb(150, 205, 225);
 			}
 
 /* Wide */
