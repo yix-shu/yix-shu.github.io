@@ -1973,7 +1973,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #a5cad5;
+			background-color: #95cffc;
 		}
 
 		input[type="button"]:active,
@@ -1981,7 +1981,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #96c7d6;
+			background-color: #8fcdfd;
 		}
 
 /* Item */
