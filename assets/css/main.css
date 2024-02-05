@@ -1974,7 +1974,7 @@ button,
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #eeeeee;
+			background-color: rgba(255, 255, 255, 0.75);
 		}
 
 		input[type="button"]:active,
