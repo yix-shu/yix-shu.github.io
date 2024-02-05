@@ -1951,7 +1951,7 @@ button,
 .button {
 	position: relative;
 	display: inline-block;
-	border-radius: 0.35em;
+	//border-radius: 0.35em;
 	color: #000000 !important;
 	text-decoration: none;
 	padding: 0.75em 2.5em 0.75em 2.5em;
