@@ -1956,11 +1956,9 @@ button,
 	color: #f4f4f4 
 	text-decoration: none;
 	padding: 0.75em 2.5em 0.75em 2.5em;
-	//when button is white: background-color: #FFFFFF;
-	background-color: rgba(0, 0, 0, 1);
+	background-color: #FFFFFF;
 	border: 20px;
-	//when button is white: border-color: rgba(0, 0, 0, 1);
-	border-color: rgba(255, 255, 255, 1);
+	border-color: rgba(0, 0, 0, 1);
 	cursor: pointer;
 	//background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("images/overlay.png");
 	//background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("images/overlay.png");
@@ -1977,8 +1975,7 @@ button,
 	input[type="reset"]:hover,
 	button:hover,
 	.button:hover {
-		//when button is white: background-color: rgba(255, 255, 255, 0.75);
-		background-color: rgba(50, 50, 50, 1)
+		background-color: rgba(255, 255, 255, 0.75);
 	}
 
 	input[type="button"]:active,
@@ -1986,8 +1983,7 @@ button,
 	input[type="reset"]:active,
 	button:active,
 	.button:active {
-		//when button is white: background-color: #ffffff;
-		background-color: rgba(0, 0, 0, 1);
+		background-color: #ffffff;
 	}
 
 /* Item */
